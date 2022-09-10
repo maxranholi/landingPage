@@ -193,7 +193,7 @@ a {
     position: absolute;
 width: 225px;
 height: 45px;
-left: 35px;
+left: 36px;
 top: 581px;
 }
 `
