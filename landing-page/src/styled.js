@@ -7,7 +7,7 @@ width: 100%;
 background-image: linear-gradient(to right, #628E75, #1A4855);
 
 @media (max-width: 768px) {
-    
+    height: 100%;
 }
 `
 export const Section = styled.section`
@@ -28,6 +28,7 @@ height: 70vh;
 width: 42%;
 
 @media (max-width: 768px) {
+    margin-top: 8px;
     padding-left: 1rem;
 }
 `
@@ -64,7 +65,7 @@ export const Paragraph = styled.p`
  position: relative;
  line-height: 180%;
  font-size: 1.063rem;
- font-style: normal;
+ font-style: light;
  width: 80%;
  top: -60px;
 
@@ -86,8 +87,8 @@ height: 8rem;
 
 @media (max-width: 768px) {
 height: 6rem;
-padding-left: 1rem;
-padding-right: 1rem;
+padding-left: 1.5rem;
+padding-right: 1.5rem;
 padding-top: -5rem;
 }
 `
@@ -109,7 +110,7 @@ height: 25rem;
 @media (max-width: 768px) {
     display: flex;
     padding-top: 0;
-    padding-left: 3rem;
+    padding-left: 1.5rem;
     padding-right: 0;
     height: 11rem;
     width: 1rem;  
@@ -155,7 +156,7 @@ animation: ${animateGhost2} 2s infinite;
 
 export const ButtonsDiv = styled.div`
 display: flex;
-gap: 50px;
+gap: 25px;
 width: 100%;
 padding-left: 10px;
 position: relative;
@@ -163,7 +164,7 @@ top: -20px;
 
 @media (max-width: 768px) {
     width: 100%;
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 `
 export const Button1 = styled.button`
@@ -194,7 +195,7 @@ a {
 }
 
 @media (max-width: 768px) {
-width: 225px;
+width: 325px;
 height: 45px;
 left: 36px;
 top: 581px;
