@@ -30,6 +30,7 @@ width: 42%;
 @media (max-width: 768px) {
     margin-top: 8px;
     padding-left: 1rem;
+    height: 55vh;
 }
 `
 export const TitleH1 = styled.h1`
@@ -104,13 +105,13 @@ export const Ghosts = styled.div`
 padding-top: 4rem;
 padding-right: 6rem;
 display: flex;
-width: 40rem;
-height: 25rem;
+width: 50rem;
+height: 35rem;
 
 @media (max-width: 768px) {
     display: flex;
     padding-top: 0;
-    padding-left: 1.5rem;
+    padding-left: 2.5rem;
     padding-right: 0;
     height: 11rem;
     width: 1rem;  
@@ -195,8 +196,8 @@ a {
 }
 
 @media (max-width: 768px) {
-width: 325px;
-height: 45px;
+width: 375px;
+height: 55px;
 left: 36px;
 top: 581px;
 }

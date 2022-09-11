@@ -21,7 +21,7 @@ function App() {
           <a href="https://pt-br.facebook.com/people/A-Viagem-de-Chihiro/100067336604427/"><img src={facebook} /></a>
           <a href="https://www.instagram.com/ghiblibrasil/"><img src={instagram} /></a>
           <a href="https://twitter.com/lorenfreecss/status/1389421642435137536"><img src={twitter} /></a>
-          <a href="https://www.youtube.com/watch?v=sEROe2E9PsA&ab_channel=PaulGaudry"><img src={youtube} /></a>
+          <a href="https://www.youtube.com/watch?v=ByXuk9QqQkk&ab_channel=MadmanAnime"><img src={youtube} /></a>
         </Images>
       </ContainerImages>
       <Section>
