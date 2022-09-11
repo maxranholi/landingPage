@@ -20,13 +20,12 @@ justify-content: space-between;
 }
 `
 export const ContainerText = styled.div`
-display: flex;
+display: block;
 flex-direction: column;
-padding-top: 2.5rem ;
+padding-top: 1.3rem ;
 padding-left: 10rem;
 height: 70vh;
 width: 42%;
-gap: 1rem;
 
 @media (max-width: 768px) {
     padding-left: 1rem;
@@ -41,6 +40,8 @@ export const TitleH1 = styled.h1`
     font-weight: 900;
     font-size: 70px;
     line-height: 109%;
+    position: relative;
+    top: -20px;
 
     @media (max-width: 768px) {
         line-height: 95%;
@@ -52,7 +53,7 @@ export const TitleH1 = styled.h1`
 `
 export const TitleH3 = styled.h3`
  color: rgb(255,255,255,0.9);
-
+ line-height: 10px;
  
  @media (max-width: 768px) {
     font-size: 16px;
@@ -60,14 +61,19 @@ export const TitleH3 = styled.h3`
 `
 export const Paragraph = styled.p`
  color: rgb(255,255,255,0.9);
+ position: relative;
  line-height: 180%;
  font-size: 1.063rem;
  font-style: normal;
+ width: 80%;
+ top: -60px;
+
 
  @media (max-width: 768px) {
     font-size: 14px;
     line-height: 180%;
     width: 90vw;
+    top: -45px;
 }
 `
 export const ContainerImages = styled.header`
@@ -76,9 +82,7 @@ padding-right: 7rem;
 display: flex;
 align-items: center;
 justify-content: space-between;
-width: 100vw;
 height: 8rem;
-
 
 @media (max-width: 768px) {
 height: 6rem;
@@ -153,7 +157,9 @@ export const ButtonsDiv = styled.div`
 display: flex;
 gap: 50px;
 width: 100%;
-padding-left: 100px;
+padding-left: 10px;
+position: relative;
+top: -20px;
 
 @media (max-width: 768px) {
     width: 100%;
@@ -166,11 +172,9 @@ align-items: center;
 justify-content: space-around;
 padding-left: 20px;
 padding-right:20px ;
-position: absolute;
 width: 225px;
 height: 45px;
 left: 165px;
-top: 515px;
 border: none;
 background: #658E76;
 color: #F9F9F9;
@@ -190,7 +194,6 @@ a {
 }
 
 @media (max-width: 768px) {
-    position: absolute;
 width: 225px;
 height: 45px;
 left: 36px;
@@ -199,7 +202,6 @@ top: 581px;
 `
 export const Button2 = styled.button`
 background-color: transparent;
-position: absolute;
 width: 225px;
 height: 45px;
 left: 390px;
