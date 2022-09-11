@@ -105,13 +105,13 @@ export const Ghosts = styled.div`
 padding-top: 4rem;
 padding-right: 6rem;
 display: flex;
-width: 50rem;
-height: 35rem;
+width: 40rem;
+height: 25rem;
 
 @media (max-width: 768px) {
     display: flex;
     padding-top: 0;
-    padding-left: 2.5rem;
+    padding-left: 3rem;
     padding-right: 0;
     height: 11rem;
     width: 1rem;  
@@ -197,7 +197,7 @@ a {
 
 @media (max-width: 768px) {
 width: 375px;
-height: 55px;
+height: 50px;
 left: 36px;
 top: 581px;
 }
